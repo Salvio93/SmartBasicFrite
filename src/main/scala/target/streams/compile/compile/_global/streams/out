@@ -1,0 +1,75 @@
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:1:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.actor.ActorSystem[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:2:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.http.scaladsl.Http[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:3:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.http.scaladsl.server.Directives._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:4:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.http.scaladsl.model.StatusCodes[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:5:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.stream.ActorMaterializer[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:10:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:11:8: not found: object spray[0m
+[0m[[0m[31merror[0m] [0m[0mimport spray.json._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:14:28: not found: type SprayJsonSupport[0m
+[0m[[0m[31merror[0m] [0m[0mobject JsonSupport extends SprayJsonSupport with DefaultJsonProtocol {[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:14:50: not found: type DefaultJsonProtocol[0m
+[0m[[0m[31merror[0m] [0m[0mobject JsonSupport extends SprayJsonSupport with DefaultJsonProtocol {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:15:36: not found: type RootJsonFormat[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val dataResponseFormat: RootJsonFormat[DataResponse] = jsonFormat4(DataResponse.apply)[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:15:67: not found: value jsonFormat4[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val dataResponseFormat: RootJsonFormat[DataResponse] = jsonFormat4(DataResponse.apply)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:15:92: missing argument list for method apply in object DataResponse[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `apply _` or `apply(_,_,_,_)` instead of `apply`.[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val dataResponseFormat: RootJsonFormat[DataResponse] = jsonFormat4(DataResponse.apply)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:22:24: not found: type ActorSystem[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val system: ActorSystem = ActorSystem("akka-http-server")[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:22:38: not found: value ActorSystem[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val system: ActorSystem = ActorSystem("akka-http-server")[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:23:30: not found: type ActorMaterializer[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val materializer: ActorMaterializer = ActorMaterializer()[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:23:50: not found: value ActorMaterializer[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val materializer: ActorMaterializer = ActorMaterializer()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:42:5: not found: value path[0m
+[0m[[0m[31merror[0m] [0m[0m    path("api" / "data") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:42:16: value / is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    path("api" / "data") {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:43:7: not found: value get[0m
+[0m[[0m[31merror[0m] [0m[0m      get {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:44:9: not found: value parameters[0m
+[0m[[0m[31merror[0m] [0m[0m        parameters("page".as[Int], "dataType", "frequence") { (page, dataType, frequence) =>[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:44:27: value as is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m        parameters("page".as[Int], "dataType", "frequence") { (page, dataType, frequence) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:46:11: not found: value complete[0m
+[0m[[0m[31merror[0m] [0m[0m          complete((StatusCodes.OK, data.mkString(",")))[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:46:21: not found: value StatusCodes[0m
+[0m[[0m[31merror[0m] [0m[0m          complete((StatusCodes.OK, data.mkString(",")))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/salvio/Bureau/SmartGym/SmartGymBackEnd/src/main/scala/main.scala:52:23: not found: value Http[0m
+[0m[[0m[31merror[0m] [0m[0m  val bindingFuture = Http().newServerAt("0.0.0.0", 9090).bind(route)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m24 errors found[0m

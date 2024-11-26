@@ -1,0 +1,35 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/salvio/Téléchargements/SmartGymBackEnd/target/scala-3.3.4/smartgymbackend_3-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataResponse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/salvio/Téléchargements/SmartGymBackEnd/target/scala-3.3.4/classes/DataResponse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaHttpServer.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/salvio/Téléchargements/SmartGymBackEnd/target/scala-3.3.4/classes/AkkaHttpServer.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Query.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/salvio/Téléchargements/SmartGymBackEnd/target/scala-3.3.4/classes/Query.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/salvio/Téléchargements/SmartGymBackEnd/target/scala-3.3.4/classes/main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaHttpServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/salvio/Téléchargements/SmartGymBackEnd/target/scala-3.3.4/classes/AkkaHttpServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Query.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/salvio/Téléchargements/SmartGymBackEnd/target/scala-3.3.4/classes/Query.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaHttpServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/salvio/Téléchargements/SmartGymBackEnd/target/scala-3.3.4/classes/AkkaHttpServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	JsonSupport.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/salvio/Téléchargements/SmartGymBackEnd/target/scala-3.3.4/classes/JsonSupport.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/salvio/Téléchargements/SmartGymBackEnd/target/scala-3.3.4/classes/main$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataResponse.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/salvio/Téléchargements/SmartGymBackEnd/target/scala-3.3.4/classes/DataResponse.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/salvio/Téléchargements/SmartGymBackEnd/target/scala-3.3.4/classes/main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	JsonSupport.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/salvio/Téléchargements/SmartGymBackEnd/target/scala-3.3.4/classes/JsonSupport.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/salvio/Téléchargements/SmartGymBackEnd/target/scala-3.3.4/classes/DataResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/salvio/Téléchargements/SmartGymBackEnd/target/scala-3.3.4/classes/main$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/salvio/Téléchargements/SmartGymBackEnd/target/scala-3.3.4/classes/main$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	JsonSupport$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/salvio/Téléchargements/SmartGymBackEnd/target/scala-3.3.4/classes/JsonSupport$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
