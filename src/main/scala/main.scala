@@ -23,6 +23,8 @@ object AkkaHttpServer extends App {
   implicit val materializer: ActorMaterializer = ActorMaterializer()
   implicit val executionContext: ExecutionContext = system.dispatcher
 
+  import JsonSupport._ 
+
   def generateData(page: Int, dataType: String, frequence: String): List[Int] = {
     frequence match {
       case "yearly" =>
@@ -43,7 +45,8 @@ object AkkaHttpServer extends App {
       get {
         parameters("page".as[Int], "dataType", "frequence") { (page, dataType, frequence) =>
           val data = generateData(page, dataType, frequence)
-          complete((StatusCodes.OK, data.mkString(",")))
+          val response = DataResponse(page, dataType, frequence, data) 
+          complete(response)
         }
       }
     }
